@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		138D939621A55B1500FE8C15 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D939521A55B1500FE8C15 /* User.m */; };
+		138D939921A560BF00FE8C15 /* LockUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D939821A560BF00FE8C15 /* LockUser.m */; };
+		138D939C21A560FA00FE8C15 /* GCDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D939B21A560FA00FE8C15 /* GCDUser.m */; };
+		138D939F21A561AF00FE8C15 /* MRCGCDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D939E21A561AF00FE8C15 /* MRCGCDUser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		13F6EE1021A40DAC00732377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F6EE0F21A40DAC00732377 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		138D939421A55B1500FE8C15 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		138D939521A55B1500FE8C15 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		138D939721A560BF00FE8C15 /* LockUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockUser.h; sourceTree = "<group>"; };
+		138D939821A560BF00FE8C15 /* LockUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockUser.m; sourceTree = "<group>"; };
+		138D939A21A560FA00FE8C15 /* GCDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDUser.h; sourceTree = "<group>"; };
+		138D939B21A560FA00FE8C15 /* GCDUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUser.m; sourceTree = "<group>"; };
+		138D939D21A561AF00FE8C15 /* MRCGCDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCGCDUser.h; sourceTree = "<group>"; };
+		138D939E21A561AF00FE8C15 /* MRCGCDUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCGCDUser.m; sourceTree = "<group>"; };
 		13F6EE0C21A40DAC00732377 /* 02面试题-实现singleton模式(oc) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02面试题-实现singleton模式(oc)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F6EE0F21A40DAC00732377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				13F6EE0F21A40DAC00732377 /* main.m */,
+				138D939421A55B1500FE8C15 /* User.h */,
+				138D939521A55B1500FE8C15 /* User.m */,
+				138D939721A560BF00FE8C15 /* LockUser.h */,
+				138D939821A560BF00FE8C15 /* LockUser.m */,
+				138D939A21A560FA00FE8C15 /* GCDUser.h */,
+				138D939B21A560FA00FE8C15 /* GCDUser.m */,
+				138D939D21A561AF00FE8C15 /* MRCGCDUser.h */,
+				138D939E21A561AF00FE8C15 /* MRCGCDUser.m */,
 			);
 			path = "02面试题-实现singleton模式(oc)";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138D939921A560BF00FE8C15 /* LockUser.m in Sources */,
+				138D939C21A560FA00FE8C15 /* GCDUser.m in Sources */,
+				138D939621A55B1500FE8C15 /* User.m in Sources */,
 				13F6EE1021A40DAC00732377 /* main.m in Sources */,
+				138D939F21A561AF00FE8C15 /* MRCGCDUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
