@@ -11,7 +11,7 @@
 class MyClass {
     
 public:
-    bool Find(int * matrix, int rows, int columns, int number)
+    bool Find(int* matrix, int rows, int columns, int number)
     {
         bool found = false;
         if (matrix != NULL && rows > 0 && columns > 0)

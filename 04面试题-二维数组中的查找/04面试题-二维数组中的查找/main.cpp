@@ -9,7 +9,7 @@
 #include <iostream>
 #include "MyClass.cpp"
 
-int main(int argc, const char * argv[]) {
+int main() {
     // insert code here...
     
     int matrix[4][4] = {
@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     int number = 7;
     
     MyClass myclass;
-    int find = myclass.Find((int *)matrix, rows, columns, number);
+    int find = myclass.Find((int*)matrix, rows, columns, number);
     std::cout << find;
     return 0;
 }

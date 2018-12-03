@@ -10,7 +10,7 @@
 #include "MyClass.cpp"
 
 
-void print(char * str,int arr[], int size)
+void print(char* str,int arr[], int size)
 {
     std::cout << str << std::endl;
     for (int i = 0; i < size; i++) {
@@ -43,7 +43,7 @@ void testInsertSort()
     print("insertSort", arr, 7);
 }
 
-int main(int argc, const char * argv[]) {
+int main() {
     
     testBubbleSort();
     testSelectSort();
