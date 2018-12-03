@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include "MyClass.cpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    // 构造原数组
+    char str[] = "hello world\0";
+    for (int i = 0; *(str + i) != '\0'; i++) {
+        std::cout << * (str + i) << std::endl;
+    }
+    
+    MyClass myclass;
+    myclass.replaceSpace(str, 20);
+    for (int i = 0; *(str + i) != '\0'; i++) { // 打印到最后一个字符会crash ？
+        std::cout << * (str + i) << std::endl;
+    }
     return 0;
 }
