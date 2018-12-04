@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A6260921B6570200ACB3E0 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A6260821B6570200ACB3E0 /* Queue.cpp */; };
 		13A873F121ABBDE30000F013 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A873F021ABBDE30000F013 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13A6260821B6570200ACB3E0 /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
 		13A873ED21ABBDE30000F013 /* 09面试题-用两个栈实现队列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09面试题-用两个栈实现队列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A873F021ABBDE30000F013 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				13A873F021ABBDE30000F013 /* main.cpp */,
+				13A6260821B6570200ACB3E0 /* Queue.cpp */,
 			);
 			path = "09面试题-用两个栈实现队列";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A873F121ABBDE30000F013 /* main.cpp in Sources */,
+				13A6260921B6570200ACB3E0 /* Queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
