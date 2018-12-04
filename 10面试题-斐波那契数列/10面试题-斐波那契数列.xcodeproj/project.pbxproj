@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A6260B21B65CA600ACB3E0 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A6260A21B65CA600ACB3E0 /* Fibonacci.cpp */; };
 		13A8740421ABBE0F0000F013 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A8740321ABBE0F0000F013 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13A6260A21B65CA600ACB3E0 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
 		13A8740021ABBE0F0000F013 /* 10面试题-斐波那契数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10面试题-斐波那契数列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A8740321ABBE0F0000F013 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				13A8740321ABBE0F0000F013 /* main.cpp */,
+				13A6260A21B65CA600ACB3E0 /* Fibonacci.cpp */,
 			);
 			path = "10面试题-斐波那契数列";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A6260B21B65CA600ACB3E0 /* Fibonacci.cpp in Sources */,
 				13A8740421ABBE0F0000F013 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
