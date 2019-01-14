@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13A8742A21ABBE460000F013 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A8742921ABBE460000F013 /* main.cpp */; };
+		13AD492D21EC658500B9EC05 /* Myclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13AD492C21EC658500B9EC05 /* Myclass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		13A8742621ABBE460000F013 /* 12面试题-矩阵中的路径 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12面试题-矩阵中的路径"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A8742921ABBE460000F013 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13AD492C21EC658500B9EC05 /* Myclass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Myclass.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				13A8742921ABBE460000F013 /* main.cpp */,
+				13AD492C21EC658500B9EC05 /* Myclass.cpp */,
 			);
 			path = "12面试题-矩阵中的路径";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AD492D21EC658500B9EC05 /* Myclass.cpp in Sources */,
 				13A8742A21ABBE460000F013 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
